@@ -3,4 +3,8 @@ git add .
 git commit -m ""
 git push
 git checkout
-git commit -am 
+git commit -am                          *** conjunción comando git add + git commit -m ***
+git branch                              *** para crear ramas en local ***
+git checkout                            *** para cambiarse entre ramas ***
+git checkout -b feature_branch          *** crear la rama y nos ubica allí, sería como hacer en un paso el git branch y git checkout ***
+git push -u origin feature_branch       *** sube la nueva rama al repositorio remoto ***
