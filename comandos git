@@ -10,3 +10,4 @@ git checkout -b feature_branch          *** crear la rama y nos ubica allí, ser
 git push -u origin feature_branch       *** sube la nueva rama al repositorio remoto ***
 git branch -d                           *** borrar la rama en local ***
 git push origin --delete <branch_name>  *** para terminar de borrar una rama en el repositorio remoto ***
+git fetch                               *** para resincronizar el repositorio remoto con el local *** y luego ejecutar git merge origin main
